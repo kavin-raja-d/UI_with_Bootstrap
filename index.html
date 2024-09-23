@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="Images/Logo.png" rel="icon"
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">LOGODESIGN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1>Clean. Slick. Pixel Perfect</h1>
+            <p>A modern theme perfect for designers and developers</p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+            <a href="#" class="btn btn-warning">Download</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center py-5">
+        <div class="container">
+            <h2>About</h2>
+            <p>It is an amazing one-page theme with great features that offers an incredible experience.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section text-center py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid" alt="Project 1">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid" alt="Project 2">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid" alt="Project 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5 bg-secondary text-white text-center">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="carousel slide" id="testimonialCarousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>"This is an amazing theme with great design and awesome support."</p>
+                        <p>- Mike Muller</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"It offers exactly what you need for your website."</p>
+                        <p>- Sarah Johnson</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section text-center py-5">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="bi bi-pencil-square"></i>
+                    <h4>Web Design</h4>
+                    <p>Beautiful, responsive designs that engage users.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-code"></i>
+                    <h4>Web Development</h4>
+                    <p>Robust and scalable web development solutions.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="bi bi-bar-chart"></i>
+                    <h4>SEO Analysis</h4>
+                    <p>Boost your online presence with our SEO services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section text-center py-5 bg-light">
+        <div class="container">
+            <h2>Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid rounded-circle" alt="Team 1">
+                    <h4>Mark Lawrence</h4>
+                    <p>Web Designer</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid rounded-circle" alt="Team 2">
+                    <h4>Jane Stenton</h4>
+                    <p>SEO Specialist</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="Images/PHOTO1.jpeg" class="img-fluid rounded-circle" alt="Team 3">
+                    <h4>John Smith</h4>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

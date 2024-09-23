@@ -1,0 +1,79 @@
+
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('https://source.unsplash.com/1600x900/?nature,mountain') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    padding: 150px 0;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background: #6a1b9a;
+    padding: 60px 0;
+}
+
+.carousel-item p {
+    font-size: 1.3rem;
+}
+
+/* Services Section */
+.services-section i {
+    font-size: 2.5rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+/* Team Section */
+.team-section img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+}
+
+.contact-section form .form-control {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
